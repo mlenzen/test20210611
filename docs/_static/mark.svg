@@ -8,9 +8,9 @@
    style="enable-background:new"
    version="1.1"
    id="svg2"
-   viewBox="0 0 600 400"
-   height="400"
-   width="600">
+   viewBox="0 0 400 200"
+   height="200"
+   width="400">
   <defs
      id="defs4" />
   <metadata
@@ -26,7 +26,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(0,-652.36216)"
+     transform="translate(0,-852.36216)"
      id="layer1">
     <text
        id="text3348"
@@ -47,36 +47,27 @@
          x="-56.778526"
          id="tspan3356" /></text>
     <ellipse
-       ry="24.141125"
-       rx="24.140915"
+       ry="24.141127"
+       rx="24.140917"
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:11.71774483;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       cy="802.36981"
-       cx="299.99966"
+       cy="952.36218"
+       cx="199.99966"
        id="path3402" />
     <path
        id="path4335"
-       d="m 186.31127,778.26917 -16.63031,24.07889 16.63031,24.07875 -49.89092,-24.07875 z"
+       d="M 86.31127,928.26156 69.680964,952.34046 86.31127,976.41921 36.420353,952.34046 Z"
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:6.53552866;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="path4360"
-       d="m 275.85877,802.36599 -106.17702,-0.0168"
+       d="M 175.85877,952.35837 69.681751,952.3416"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:10.49999905;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="path4335-8"
-       d="m 413.68875,778.26917 16.63028,24.07889 -16.63028,24.07875 49.89089,-24.07875 z"
+       d="m 313.68875,928.26156 16.63029,24.0789 -16.63029,24.07875 49.8909,-24.07875 z"
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:6.53552866;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="path4377"
-       d="m 324.14056,802.36599 106.17768,-0.0168"
+       d="m 224.14056,952.35837 106.17769,-0.0168"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:10.49999905;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       id="text4445"
-       y="915.505"
-       x="25.120001"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:100%;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="915.505"
-         x="25.120001"
-         id="tspan4449">collections-extended</tspan></text>
   </g>
 </svg>
