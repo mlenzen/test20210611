@@ -35,7 +35,7 @@ nosetests.xml
 *.mo
 
 # Sphinx docs
-docs/_build
+docs-src/_build
 
 MANIFEST
 

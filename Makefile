@@ -59,9 +59,11 @@ publish-force:
 
 .PHONY: docs
 docs:
-	rm --force docs/$(PACKAGE).rst
-	rm --force docs/modules.rst
+	#rm --force docs/$(PACKAGE).rst
+	#rm --force docs/modules.rst
 	#sphinx-apidoc --output-dir docs/ $(PACKAGE)
-	make --directory docs clean
-	make --directory docs html
+	make --directory docs-src clean
+	make --directory docs-src html
 	#xdg-open docs/_build/html/index.html
+	cp -a docs-src/_build/html $@
+
