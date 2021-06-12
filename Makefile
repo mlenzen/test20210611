@@ -65,5 +65,5 @@ docs:
 	make --directory docs-src clean
 	make --directory docs-src html
 	#xdg-open docs/_build/html/index.html
-	cp -a docs-src/_build/html $@
+	cp -a docs-src/_build/html/. $@
 
