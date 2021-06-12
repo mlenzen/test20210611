@@ -512,8 +512,6 @@ class Bag(Collection):
 
 class bag(Bag):
 	"""bag is a mutable unhashable bag.
-
-	.. automethod:: __init__
 	"""
 
 	def pop(self):
@@ -578,8 +576,6 @@ class bag(Bag):
 
 class frozenbag(Bag, Hashable):
 	"""frozenbag is an immutable, hashable bag.
-
-	.. automethod:: __init__
 	"""
 
 	def __hash__(self):

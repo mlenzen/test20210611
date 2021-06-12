@@ -282,8 +282,6 @@ class SetList(Sequence, Set):
 
 class setlist(SetList, MutableSequence, MutableSet):
 	"""A mutable (unhashable) setlist.
-
-	.. automethod:: __init__
 	"""
 
 	def __str__(self):
@@ -595,8 +593,6 @@ class setlist(SetList, MutableSequence, MutableSet):
 
 class frozensetlist(SetList, Hashable):
 	"""An immutable (hashable) setlist.
-
-	.. automethod:: __init__
 	"""
 
 	def __hash__(self):

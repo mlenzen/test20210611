@@ -462,16 +462,6 @@ n = len(other)</p>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">collections_extended.bags.Bag</span></code></p>
 <p>bag is a mutable unhashable bag.</p>
 <dl class="py method">
-<dt id="collections_extended.bag.__init__">
-<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">iterable</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#collections_extended.bag.__init__" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create a new bag.</p>
-<p>If iterable isn’t given, is None or is empty then the bag starts empty.
-Otherwise each element from iterable will be added to the bag
-however many times it appears.</p>
-<p>This runs in O(len(iterable))</p>
-</dd></dl>
-
-<dl class="py method">
 <dt id="collections_extended.bag.pop">
 <code class="sig-name descname">pop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/collections_extended/bags.html#bag.pop"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#collections_extended.bag.pop" title="Permalink to this definition">¶</a></dt>
 <dd><p>Remove and return an element of self.</p>
@@ -533,16 +523,6 @@ than in self.</p>
 <em class="property">class </em><code class="sig-prename descclassname">collections_extended.</code><code class="sig-name descname">frozenbag</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">iterable</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/collections_extended/bags.html#frozenbag"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#collections_extended.frozenbag" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">collections_extended.bags.Bag</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">collections.abc.Hashable</span></code></p>
 <p>frozenbag is an immutable, hashable bag.</p>
-<dl class="py method">
-<dt id="collections_extended.frozenbag.__init__">
-<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">iterable</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#collections_extended.frozenbag.__init__" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create a new bag.</p>
-<p>If iterable isn’t given, is None or is empty then the bag starts empty.
-Otherwise each element from iterable will be added to the bag
-however many times it appears.</p>
-<p>This runs in O(len(iterable))</p>
-</dd></dl>
-
 <dl class="py method">
 <dt id="collections_extended.frozenbag.__hash__">
 <code class="sig-name descname">__hash__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/collections_extended/bags.html#frozenbag.__hash__"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#collections_extended.frozenbag.__hash__" title="Permalink to this definition">¶</a></dt>

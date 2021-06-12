@@ -130,31 +130,6 @@ or iterable, the return value for all keys.</p></li>
 </dd></dl>
 
 <dl class="py method">
-<dt id="id0">
-<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param">iterable=None</em>, <em class="sig-param">default_value=&lt;not_set&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/collections_extended/range_map.html#RangeMap.__init__"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#id0" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create a RangeMap.</p>
-<p>A mapping or other iterable can be passed to initialize the RangeMap.
-If mapping is passed, it is interpreted as a mapping from range start
-indices to values.
-If an iterable is passed, each element will define a range in the
-RangeMap and should be formatted (start, stop, value).</p>
-<p>default_value is a an optional keyword argument that will initialize the
-entire RangeMap to that value. Any missing ranges will be mapped to that
-value. However, if ranges are subsequently deleted they will be removed
-and <em>not</em> mapped to the default_value.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>iterable</strong> – A Mapping or an Iterable to initialize from.</p></li>
-<li><p><strong>default_value</strong> – If passed, the return value for all keys less than the
-least key in mapping or missing ranges in iterable. If no mapping
-or iterable, the return value for all keys.</p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
 <dt id="collections_extended.RangeMap.from_mapping">
 <em class="property">classmethod </em><code class="sig-name descname">from_mapping</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">mapping</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/collections_extended/range_map.html#RangeMap.from_mapping"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#collections_extended.RangeMap.from_mapping" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create a RangeMap from a mapping of interval starts to values.</p>
@@ -268,21 +243,6 @@ or iterable, the return value for all keys.</p></li>
 <dl class="py method">
 <dt id="collections_extended.MappedRange.__init__">
 <code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">start</span></em>, <em class="sig-param"><span class="n">stop</span></em>, <em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/collections_extended/range_map.html#MappedRange.__init__"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#collections_extended.MappedRange.__init__" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create a mapped range.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>start</strong> – The start of the range, inclusive.</p></li>
-<li><p><strong>stop</strong> – The end of the range, exclusive.</p></li>
-<li><p><strong>value</strong> – The mapped value.</p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py method">
-<dt id="id1">
-<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">start</span></em>, <em class="sig-param"><span class="n">stop</span></em>, <em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/collections_extended/range_map.html#MappedRange.__init__"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#id1" title="Permalink to this definition">¶</a></dt>
 <dd><p>Create a mapped range.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
